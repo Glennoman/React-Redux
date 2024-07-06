@@ -1,0 +1,10 @@
+/* Style the bank account container. */
+.bank-account {
+  text-align: center;
+}
+
+/* Style the buttons with margin and padding. */
+.bank-account button {
+  margin: 10px;
+  padding: 10px;
+}

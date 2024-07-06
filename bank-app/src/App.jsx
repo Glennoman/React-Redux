@@ -1,15 +1,13 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import BankAccount from "./components/BankAccount";
+import "./components/BankAccount.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <div></div>
-    </>
+    <div className="App">
+      {/* Render the BankAccount component */}
+      <BankAccount />
+    </div>
   );
 }
 
