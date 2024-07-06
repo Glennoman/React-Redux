@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from "react-redux";
 import React from "react";
 
 // importing action creators from redux action file
-import * as actions from "../redux/actions";
+import { deposit, withdraw } from "../redux/actions";
 
 // import CSS for component
 import "./BankAccount.css";
@@ -36,8 +36,8 @@ const BankAccount = () => {
     <div className="bank-account">
       <h1>Bank Account</h1>
       <p>Current Balance:${balance}</p>
-      <button onClick={handleDeposit}></button>
-      <button onClick={handleWithdraw}></button>
+      <button onClick={handleDeposit}>Deposit</button>
+      <button onClick={handleWithdraw}>Withdraw</button>
     </div>
   );
 };
